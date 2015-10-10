@@ -12,12 +12,6 @@
  '(custom-enabled-themes (quote (manoj-dark)))
  '(initial-frame-alist (quote ((fullscreen . maximized)))))
 
-(unless (package-installed-p 'scala-mode2)
-  (package-refresh-contents) (package-install 'scala-mode2))
-
-(unless (package-installed-p 'sbt-mode)
-  (package-refresh-contents) (package-install 'sbt-mode))
-
 (unless (package-installed-p 'ensime)
   (package-refresh-contents) (package-install 'ensime))
 (require 'ensime)
