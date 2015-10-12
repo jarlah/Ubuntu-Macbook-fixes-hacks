@@ -1,9 +1,9 @@
 # Ubuntu + Macbook fixes
 
-- .Xmodmap -
+- .Xmodmap
 
 Redefining important keys
 
-- .emacs -
+- .emacs
 
 Configuring emacs for Scala development
